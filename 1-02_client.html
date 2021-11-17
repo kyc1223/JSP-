@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="1-02_server.jsp" method="post">
+	<p> 입력 파일명 : <input type="text" value="cat03_512.raw" name="inFile">
+	<p> 출력 파일명 : <input type="text" value="cat03_512_out.raw" name="outFile">
+	<p> <select name="algo">
+		<option value=""> ~~ 선택 하세요 ~~~ </option>
+		<option value="101"> 반전 처리 </option>
+		<option value="102"> 밝게/어둡게</option>
+	</select>
+	<p> 파라미터 : <input type="text" value="0" name="para">
+	<p> <input type="submit" value="영상처리 하기">
+</form>
+
+</body>
+</html>
